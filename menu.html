@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍴 Smart Canteen</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart 🛒</a>
+        <a href="orders.html">Orders</a>
+    </nav>
+</header>
+
+<main>
+    <h2 class="title">Today's Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="food-card">
+            <div class="food-image">🍕</div>
+            <h3>Pizza</h3>
+            <p>Cheese Pizza</p>
+            <h4>₹120</h4>
+            <button onclick="addToCart('Pizza',120)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <div class="food-image">🍔</div>
+            <h3>Burger</h3>
+            <p>Veg Cheese Burger</p>
+            <h4>₹80</h4>
+            <button onclick="addToCart('Burger',80)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <div class="food-image">🍜</div>
+            <h3>Noodles</h3>
+            <p>Veg Noodles</p>
+            <h4>₹70</h4>
+            <button onclick="addToCart('Noodles',70)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <div class="food-image">🥪</div>
+            <h3>Sandwich</h3>
+            <p>Grilled Sandwich</p>
+            <h4>₹60</h4>
+            <button onclick="addToCart('Sandwich',60)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <div class="food-image">🍟</div>
+            <h3>French Fries</h3>
+            <p>Crispy French Fries</p>
+            <h4>₹50</h4>
+            <button onclick="addToCart('French Fries',50)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <div class="food-image">🥤</div>
+            <h3>Fresh Juice</h3>
+            <p>Fresh Fruit Juice</p>
+            <h4>₹40</h4>
+            <button onclick="addToCart('Fresh Juice',40)">Add to Cart</button>
+        </div>
+
+    </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
