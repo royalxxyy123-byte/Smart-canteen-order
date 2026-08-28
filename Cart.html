@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍴 Smart Canteen</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart 🛒</a>
+        <a href="orders.html">Orders</a>
+    </nav>
+</header>
+
+<main class="cart-page">
+
+    <h2>Your Cart</h2>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-total">
+        <h3>Total: ₹<span id="total">0</span></h3>
+    </div>
+
+    <div class="customer-form">
+        <h3>Customer Details</h3>
+
+        <input type="text" id="customerName"
+               placeholder="Enter your name">
+
+        <input type="text" id="customerPhone"
+               placeholder="Enter phone number">
+
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
